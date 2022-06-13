@@ -1,0 +1,484 @@
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.header1{
+    color: #ffffff;
+    background-color: #222;
+    text-align: start;
+}
+
+.header1 .container{
+    display: flex;
+}
+
+.header1 p{
+    line-height: 50px;
+    margin: 5px ;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.header1 p a{
+    color: #be34be;
+}
+.header1 p a:hover{
+    color: #ffffff;
+    transition: .3s;
+}
+
+.header1 .nama{
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.header1 .nama span{
+    margin-top: 5px auto;
+    line-height: 50px;
+    margin: 5px ;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.header1 .kotak{
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.header1 .admin{
+    line-height: 50px;
+    margin: 5px ;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.header1 .hr{
+    border-left: 2px solid #ffffffa9;
+    padding: 10px;
+}
+.header{
+    background-color: #ffffff;
+    
+    text-align: center;
+  }
+
+.header .logo{
+    font-size: 50px;
+    font-weight: bold;
+    color: purple;
+    justify-content: center;
+}
+.header .logo p{
+    line-height: 10px;
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+.contak{
+    line-height: 10px;
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+nav{
+    background-color: purple;
+}
+
+div.card{
+    border-radius: 0;
+}
+
+a.btn{
+    border-radius: 0px;
+}
+
+input.cari{
+    border-radius: 25px 0 0 25px;
+}
+
+input.cari:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+button.btncari{
+    border-radius: 0 25px 25px 0 ;
+    outline: none;
+    border: none;
+    background-color: purple;
+}
+button.btncari:active{
+    outline: none;
+    border: none;
+    box-shadow: unset;
+}
+
+.footer{
+    color: #ffffff;
+    bottom: 0;
+    background-color: #222;
+}
+
+.footer .title{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 30px;
+    list-style: none;
+    text-align: start;
+}
+
+.nav-item{
+    margin: 0 10px;
+}
+.nav-item ul.dropdown-menu .head{
+    margin: 0 10px;
+    font-weight: bolder;
+}
+
+ul .head{
+    color: purple;
+}
+
+.link{
+    display: flex;
+    color: #be34be;
+    text-align: start;
+    margin-top: 10px;
+}
+
+.link i{
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+}
+.link .i{
+    line-height: 39px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid purple;
+}
+
+.link a{
+    margin-left: 10px;
+    color: #999;
+    font-weight: bolder;
+    text-decoration: none;
+    line-height: 40px;
+    transition: all .3s;
+}
+.link a:hover{
+    color: #be34be;
+}
+
+.judul{
+    margin: auto;
+}
+.judul h2{
+    font-weight: bolder;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.judul hr{
+    background-color: #3232f8;
+    width: 80%;
+    border: 2px solid #3232f8;
+    margin: auto;
+}
+.judul1{
+    margin: auto;
+}
+.judul1 h3{
+    color: #111;
+    text-transform: uppercase;
+}
+
+.judul1 a{
+    color: purple;
+    transition: .3s;
+}
+
+.form-login{
+    padding: 10px;
+    margin: auto;
+    
+}
+
+.form-login .form-group button{
+    display: block;
+    width: 100%;
+    border-radius: 0;
+}
+
+div.gotologin{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+div.gotologin button{
+    border-radius: 0;
+}
+
+.cophy{
+    color: #888;
+    background-color: #222;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-top: 2px solid #555;
+}
+.top{
+    height: 70px;
+    padding: 10px;
+    background-color: #eee;
+}
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    transition: .3s;
+  }
+  ul.breadcrumb li .aktif {
+    display: inline;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    transition: .3s;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+.position-absolute{
+    margin-left: -17px;
+    text-align: center;
+}
+ .position-absolute input{
+    position: absolute;
+    z-index: 1;
+    right: 5px;
+    bottom: 2px;
+    opacity: 0;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.position-absolute i{
+    z-index: 2;
+    font-size: 20px;
+    position: relative;
+    margin-right:5px;
+    box-sizing: border-box;
+    pointer-events: none;
+}
+
+ul.kranjang{
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+ul.garis{
+    border-left: 2px solid #ffffff9f;
+}
+ul.sa{
+    display: none;
+}
+
+ul.kran{
+    display: none;
+}
+  
+  .merah {
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+  }
+  
+  .hijau {
+    background-color: #ddffdd;
+    border-left: 6px solid #4CAF50;
+  }
+  
+  .biru {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+  }
+  
+  
+  .kunig {
+    background-color: #ffffcc;
+    border-left: 6px solid #ffeb3b;
+  }
+
+.al {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    box-sizing: border-box;
+    z-index: 111;
+    padding: 20px;
+    animation: amin 1s ease-in forwards;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+  @keyframes amin{
+      0%{
+        transform: translateX( 110%);
+      }50%{
+        transform: translateX(-10%);
+      }100%{
+          transform: unset;
+      }
+  }
+
+  p.angka{
+      font-size: 14px;
+      padding-right: 5px;
+      padding-left: 5px;
+      padding-bottom: 0;
+      padding-top: 0;
+      margin-top: 5px;
+      line-height: 15px;
+      text-align: center;
+      background-color: red;
+      border-radius: 50%;
+      z-index: 222;
+
+  }
+
+  div.totalharga{
+    background-color: #222;
+  }
+
+  div.card{
+      overflow: hidden;
+  }
+  div.card:hover{
+      box-shadow: 0 2px 20px 2px rgb(0,0,0,0.5);
+      transition: all .3s ease;
+  }
+  div.card:hover img{
+    transform: scale(1.1);
+    transition: all 1s ease;
+  }
+
+
+@media(max-width: 768px){
+    .header{
+        display: block;
+    }
+
+    ul.garis{
+        display: none;
+    }
+
+    ul.sa{
+        display: flex;
+        color: #ffffff;
+        margin-right: 20px;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+    ul.kranjang{
+        display: none;
+    }
+
+    ul.kran{
+        display: unset;
+        margin-left: auto;
+        font-size: 25px;
+        line-height: 20px;
+        text-align: end;
+    }
+
+    div.collapse{
+        text-align: unset;
+    }
+
+    .header1 p{
+        display: none;
+    }
+    
+    .header1 .nama{
+        margin-left: auto;
+        margin-top: 10px;
+    }
+    
+    .header1 .nama span{
+        margin-top: 5px auto;
+        line-height: 50px;
+        margin: 5px ;
+        font-weight: bolder;
+        color: #ffffff;
+    }
+    
+    .header1 .kotak{
+        margin-left: auto;
+        margin-top: 10px;
+    }
+    
+    .header1 .admin{
+        line-height: 50px;
+        margin: 5px ;
+        font-weight: bolder;
+        color: #ffffff;
+    }
+    
+    .header1 .hr{
+        border-left: 2px solid #ffffffa9;
+        padding: 10px;
+    }
+
+    .kontainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .table{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .table img{
+        width: 50px;
+    }
+    div.card-items{
+        width: 240px;
+    }
+
+    p.angka{
+        margin-top: auto;
+        margin-left: auto;
+  
+    }
+    
+} 
